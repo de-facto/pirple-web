@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+  <html lang="en-GB">
+    <head>
+      <!-- General Settings -->
+      <meta charset="utf-8" />
+      <meta http-equiv="content-language" content="en-GB">
+      <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+      <base href="{global.baseUrl}" target="_blank"/>
+      
+      <!-- Auxilliary Settings -->
+      <title>{head.title} &#124; {global.appName}</title>
+      <meta name="description" content="{head.description}">
+      
+      <!-- Static Assets -->
+      <link rel="stylesheet" href="../public/app.css" type="text/css">
+      <link rel="icon" href="../favicon_io/favicon.ico" type="image/x-icon">
+    </head>
+    
+    <body class="{body.class}">
+      <!-- Page Wrapper -->
+      <div class="wrapper">
+        
+        <!-- Header -->
+        <header>
+          
+          <!-- Logo -->
+          <a class="logo" href="../public/logo.png"></a>
+          
+          <!-- Navigation Menu -->
+          <ul class="menu">
+            <li><a href="/">Home</a></li>
+            <li><a class="loggedOut" href="/account/create">Sign Up</a></li>
+            <li><a class="loggedOut" href="/session/create">Log In</a></li>
+            <li><a class="loggedIn" href="/check/all">Dashboard</a></li>
+            <li><a class="loggedIn" href="/account/edit">Account Settings</a></li>
+            <li><a class="loggedIn" href="#">Log Out</a></li>
+          </ul>
+          
+          <!-- Clear Floats -->
+          <div class="clear"></div>
+        </header>
+        <!-- End Header -->
+        
+          <!-- Page-specific content -->
+          <div class="content">
