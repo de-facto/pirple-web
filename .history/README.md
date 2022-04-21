@@ -1,1 +1,0 @@
-This Web API is a pure NodeJS project from an on-going tutorial, provided by Pirple.Com.
