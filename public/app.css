@@ -14,7 +14,7 @@ img, input,
 p,
 select, span,
 table, textarea, td, th, tr {
-  /*line-height: 100%;*/
+  line-height: 100%;
   padding: 0;
   margin: 0;
   font: normal 1em Sans-Serif;

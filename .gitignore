@@ -1,5 +1,6 @@
 # Ignore Mac System Files
-.DS_store
+.DS_Store
+*.Ds_Store
 
 # Ignore .txt files
 .txt
